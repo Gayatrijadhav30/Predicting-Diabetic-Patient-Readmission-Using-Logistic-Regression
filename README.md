@@ -53,6 +53,10 @@ The target variable is transformed into a binary classification: **Readmitted vs
 - Scikit-learn
 - Pandas, NumPy
 - Matplotlib, Seaborn
+## 📘 Jupyter Notebook
+
+The complete model code and data processing pipeline can be found in  
+[`Readmission_Prediction_Model.ipynb`](./Code_File.ipynb)
 
 ## 📚 References
 - [ICD-9 Codes - Wikipedia](https://en.wikipedia.org/wiki/List_of_ICD-9_codes)
