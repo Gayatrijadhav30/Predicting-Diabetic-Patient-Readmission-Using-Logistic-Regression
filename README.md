@@ -41,12 +41,12 @@ The target variable is transformed into a binary classification: **Readmitted vs
 - GridSearch hyperparameter tuning in Model 4 yielded minimal improvement due to model stability with regularization
 
 ## 📈 Performance Metrics
-| Model                        | Accuracy | Precision | Recall | F1-Score | ROC-AUC |
-|-----------------------------|----------|-----------|--------|----------|----------|
-| Logistic Regression         | 62.7%    | -         | 0.564  | 0.584    | 0.670    |
-| L2-Regularized (Ridge)      | ~63%     | -         | 0.565  | 0.585    | 0.671    |
-| ElasticNet                  | ~63%     | -         | ~0.565 | ~0.585   | 0.671    |
-| ElasticNet + GridSearchCV   | ~62.5%   | -         | ~0.563 | 0.583    | 0.669    |
+| Model                       | Accuracy | Recall | F1-Score | ROC-AUC  |
+|-----------------------------|----------|--------|----------|----------|
+| Logistic Regression         | 62.7%    | 0.564  | 0.584    | 0.670    |
+| L2-Regularized (Ridge)      | ~63%     | 0.565  | 0.585    | 0.671    |
+| ElasticNet                  | ~63%     | ~0.565 | ~0.585   | 0.671    |
+| ElasticNet + GridSearchCV   | ~62.5%   | ~0.563 | 0.583    | 0.669    |
 
 ## ⚙️ Tech Stack
 - Python
@@ -59,13 +59,3 @@ The target variable is transformed into a binary classification: **Readmitted vs
 - [Logistic Regression - GeeksforGeeks](https://www.geeksforgeeks.org/understanding-logistic-regression/)
 - [EDA Guide - Analytics Vidhya](https://www.analyticsvidhya.com/blog/2022/07/step-by-step-exploratory-data-analysis-eda-using-python/)
 - [IEEE Xplore Research on Diabetes Prediction](https://ieeexplore.ieee.org/document/8342938)
-
-## 👩‍💻 Author
-**Gayatri Jadhav**  
-MSc in Data Analytics  
-National College of Ireland  
-Student ID: 23407476
-
----
-
-> 📌 *This project was submitted as part of academic coursework and demonstrates the application of machine learning in healthcare analytics with focus on model interpretability and predictive power.*
