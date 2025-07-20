@@ -58,6 +58,14 @@ The target variable is transformed into a binary classification: **Readmitted vs
 The complete model code and data processing pipeline can be found in  
 [`Readmission_Prediction_Model.ipynb`](./Code_File.ipynb)
 
+## 📰 IEEE Research Paper
+
+The full academic report, titled *"Hospital Readmission Analysis: Baseline vs. Regularised Logistic Regression"*, outlines the methodology, data processing, modeling techniques, and results in a structured IEEE format. This document was submitted as part of a postgraduate Data Analytics program.
+
+📄 You can view it here:  
+[`IEEE_Report.pdf`](./IEEE_Report.pdf)
+
+
 ## 📚 References
 - [ICD-9 Codes - Wikipedia](https://en.wikipedia.org/wiki/List_of_ICD-9_codes)
 - [Logistic Regression - GeeksforGeeks](https://www.geeksforgeeks.org/understanding-logistic-regression/)
